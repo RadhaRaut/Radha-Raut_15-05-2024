@@ -1,0 +1,25 @@
+Types of feild:
+1. static ( we can call direct without creating an object).
+          ( declare inside the static block).
+2. Non- Static( object creation is mandatory for non static).
+
+static keyword: we use static keyword for better/efficient memory management in java.
+		        -we use static keyword, to declare fields, methods and blocks.
+		        
+ this keyword: when non-static fields names and constructor/method parameter names are same,
+               then we use 'this' keyword to differentiate non-static fields from
+               constructor/method parameters.
+              -this keyword we use to point the current class properties.
+              
+ Encapsulation: Collecting related data /functionality together but individually.
+               -Mostly it used in class designing .
+               -It is nothing but the data segregation.
+ Example: 
+ public class Product {
+    private int productId;
+	private String productName;
+	private double productPrice;
+	}
+	
+instanceof keyword-The instanceof keyword compares the instance with type. 
+                  -The return value is either true or false.
