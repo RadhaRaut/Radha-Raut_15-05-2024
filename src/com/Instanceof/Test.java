@@ -12,7 +12,7 @@ public class Test {
 		
 		System.out.println("------------------------------");
 		
-		System.out.println(student1 instanceof Student);
+		System.out.println(student1 instanceof Student); //instanceof keyword
 		
 	}
 
