@@ -1,4 +1,4 @@
-Types of feild:
+Types of field:
 
 1. static ( we can call direct without creating an object).
           ( declare inside the static block).
