@@ -1,8 +1,10 @@
 Types of feild:
+
 1. static ( we can call direct without creating an object).
           ( declare inside the static block).
 2. Non- Static( object creation is mandatory for non static).
 
+-------------------------------------------------------------------------------------------------
 static keyword: we use static keyword for better/efficient memory management in java.
 		        -we use static keyword, to declare fields, methods and blocks.
 		        
@@ -11,7 +13,14 @@ static keyword: we use static keyword for better/efficient memory management in 
                constructor/method parameters.
               -this keyword we use to point the current class properties.
               
- Encapsulation: Collecting related data /functionality together but individually.
+--------------------------------------------------------------------------------------------------
+   instanceof keyword:
+                  -The instanceof keyword compares the instance with type. 
+                  -The return value is either true or false.           
+	
+---------------------------------------------------------------------------------------------------
+	
+Encapsulation: Collecting related data /functionality together but individually.
                -Mostly it used in class designing .
                -It is nothing but the data segregation.
  Example: 
@@ -20,6 +29,12 @@ static keyword: we use static keyword for better/efficient memory management in 
 	private String productName;
 	private double productPrice;
 	}
-	
-instanceof keyword-The instanceof keyword compares the instance with type. 
-                  -The return value is either true or false.
+                  
+---------------------------------------------------------------------------------------------------
+                  
+setter and getter methods:
+   -private variable can access only within a same class (an outside class has no access to it). 
+    However, it is possible to access them if we provide public get and set methods.
+   -The get method returns the variable value, and the set method sets the value.
+   -Syntax for both is that they start with either get or set, followed by the name of the 
+    variable, with the first letter in upper case:
